@@ -1,0 +1,26 @@
+{
+  "name": "re-discover",
+  "version": "0.0.0",
+  "description": "Better logging for React and Redux applications.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamPedley/re-discover.git"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Sam Pedley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamPedley/re-discover/issues"
+  },
+  "homepage": "https://github.com/SamPedley/re-discover#readme"
+}

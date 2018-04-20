@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamPedley/re-discover.git"
+    "url": "git+https://github.com/SamPedley/re-chronicle.git"
   },
   "keywords": [
     "logging"
@@ -20,7 +20,7 @@
   "author": "Sam Pedley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SamPedley/re-discover/issues"
+    "url": "https://github.com/SamPedley/re-chronicle/issues"
   },
-  "homepage": "https://github.com/SamPedley/re-discover#readme"
+  "homepage": "https://github.com/SamPedley/re-chronicle#readme"
 }

@@ -1,6 +1,6 @@
 {
   "name": "re-chronicle",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Better logging for React and Redux applications.",
   "main": "src/index.js",
   "scripts": {

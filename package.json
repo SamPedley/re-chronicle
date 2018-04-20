@@ -2,15 +2,14 @@
   "name": "re-chronicle",
   "version": "0.0.0",
   "description": "Better logging for React and Redux applications.",
-  "main": "index.js",
-  "dependencies": {
-    "react": "^16.3.2"
-  },
-  "devDependencies": {
-    "jest": "^22.4.3"
-  },
+  "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --notify --watch",
+    "lint": "eslint ./src/**/*.js",
+    "lint:fix": "eslint ./src/**/*.js --fix",
+    "format": "prettier --write ./src/**/*.js",
+    "format:verify": "prettier --list-different ./src/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/SamPedley/re-chronicle/issues"
   },
-  "homepage": "https://github.com/SamPedley/re-chronicle#readme"
+  "homepage": "https://github.com/SamPedley/re-chronicle#readme",
+  "dependencies": {
+    "react": "^16.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.3",
+    "prettier": "1.12.1"
+  }
 }

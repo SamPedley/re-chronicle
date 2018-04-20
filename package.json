@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "Better logging for React and Redux applications.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.3.2"
+  },
   "devDependencies": {
     "jest": "^22.4.3"
   },
